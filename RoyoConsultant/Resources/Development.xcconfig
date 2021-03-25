@@ -1,0 +1,28 @@
+
+
+#include "Pods/Target Support Files/Pods-RoyoConsultant/Pods-RoyoConsultant.debug.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+ROYO_CONSULTANT_CLIENT_ID = xxxxxxxxxxx.apps.googleusercontent.com
+ROYO_CONSULTANT_REVERSED_CLIENT_ID = com.googleusercontent.apps.xxxxxxxxxxxxx
+
+//Facebook SDK //SigIn
+ROYO_CONSULTANT_FACEBBOK_APP_ID = xxxxxxxxxxxx
+
+//App Store ID
+ROYO_CONSULTANT_APPLE_APP_ID = 1551275631
+ROYO_CONSULTANT_BUNDLE_ID = com.team.iCare
+
+//Related Android App
+ROYO_CONSULTANT_ANDROID_PACKAGE_NAME = com.intely
+
+//DeepLinking
+ROYO_CONSULTANT_FIREBASE_PAGE_LINK = icareconnect.page.link
+
+//Server URLs
+ROYO_CONSULTANT_BASE_PATH = https:/$()/royoconsult.com/
+ROYO_CONSULTANT_SOCKET_BASE_PATH = https:/$()/node.royoconsult.com
+ROYO_CONSULTANT_JITSI_SERVER = https:/$()/meet.royoapps.com/
+ROYO_CONSULTANT_IMAGE_THUMBS = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/thumbs/
+ROYO_CONSULTANT_IMAGE_UPLOAD = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/uploads/
+ROYO_CONSULTANT_IMAGE_ORIGINAL = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/original/
